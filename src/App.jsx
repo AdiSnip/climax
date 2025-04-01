@@ -118,8 +118,6 @@ Here's a breakdown of what it's doing: */
 
   return (
     <>
-      /* This part of the code in the `App` component is setting up the routing for different pages in
-      the React application using React Router. Here's a breakdown of what it's doing: */
       <Navbar />
       <Routes>
         <Route path='/' element={<Container data={data} weatherCodes={weatherCodes} location={address} error={error} />}/>
